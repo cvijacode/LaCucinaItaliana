@@ -1,3 +1,7 @@
+html {
+    scrollbar-width: none;
+}
+
 body {
     background-color: #121618;
 }
@@ -53,4 +57,8 @@ body {
 
 .nav-link:hover, .active {
     color: #fac564 !important; 
+}
+
+.slider {
+    padding: 0;
 }
