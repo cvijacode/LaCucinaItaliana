@@ -10,11 +10,7 @@ body {
     display: none;
 }
   
-::-moz-selection {
-    color: #fff;
-    background: grey;
-}
-  
+::-moz-selection,
 ::selection {
     color: #fff;
     background: grey;
@@ -59,6 +55,71 @@ body {
     color: #fac564 !important; 
 }
 
-.slider {
-    padding: 0;
+/* HOME */
+
+.restaurant-heading {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
 }
+
+.article {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 495.98px) {
+    .article {
+        margin-top: 1rem;
+    }
+    .restaurant-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 496px) and (max-width: 575.98px) {
+    .article {
+        margin-top: 1rem;
+    }
+    .restaurant-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .article {
+        margin-top: 1rem;
+    }
+    .restaurant-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .restaurant-heading{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .restaurant-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+/* END OF MEDIA QUERIES */
