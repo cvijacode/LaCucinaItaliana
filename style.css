@@ -28,7 +28,6 @@ body {
     font-family: "Josefin Sans", Arial, sans-serif;
     font-size: 30px;
     line-height: 1;
-    white-space: nowrap;
 }
 
 .navbar-brand span {
@@ -57,9 +56,13 @@ body {
 
 /* HOME */
 
-.restaurant-heading {
+.restaurant-heading, 
+.services-heading {
     font-family: "Josefin Sans", Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.restaurant-heading {
     color: #fff;
 }
 
@@ -77,8 +80,6 @@ body {
 }
 
 .services-heading {
-    font-family: "Josefin Sans", Arial, sans-serif;
-    text-transform: uppercase;
     color: #000;
 }
 
